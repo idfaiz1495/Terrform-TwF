@@ -12,5 +12,7 @@ resource "aws_vpc" "TWF-VPC_Public" {
     tags = {
       Name="TWF-FS"
     }
-  
+  resource "aws_s3_bucket" "s3_bucket"{
+    bucket="fslab-terraform-1023"
+}
 }
