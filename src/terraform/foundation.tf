@@ -8,6 +8,3 @@ resource "aws_vpc" "TWF-VPC_Public" {
  resource "aws_s3_bucket" "s3_bucket"{
     bucket="fslab-terraform-backend"
 }
-backend "s3" {{
-   bucket "fslab-terraform-backend/twf" 
-}}
