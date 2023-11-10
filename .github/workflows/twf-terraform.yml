@@ -53,7 +53,7 @@ on:
 #permissions:
  # contents: read
  env:
-   ROOT-PATH: '${{github.workspace}}src/terraform'
+   ROOT-PATH: '${{github.workspace}}/src/terraform'
 
 jobs:
   terraform:
